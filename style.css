@@ -1,0 +1,94 @@
+style.css
+body {
+  margin: 0px;
+  background: rgb(240, 240, 240);
+  color: rgb(20, 20, 20);
+  font-family: Garamond, sans-serif;
+	font-size: 18px;
+  font-weight: lighter;
+}
+h1, h2, h3 {
+  font-family: Garamond;
+  font-weight: bold;
+}
+h1 {
+	font-size: 40px;
+}
+h2 {
+  font-size: 24px;
+  color: #475977;
+}
+a {
+  color: #475977;
+  text-decoration: none;
+}
+a:hover {
+  color: #475977;
+  font-family: Garamond
+  font-weight: bold;
+  text-decoration: none;
+}
+.banner{
+  text-align: center;
+  color: white;
+	padding: 150px 0px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("https://picsum.photos/1000/600?random");
+  background-size: cover;
+	background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.8;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.btn-blue {
+    color: white;
+    background: #475977;
+    box-shadow: 0 5px 20px rgba(255,255,255,0.3);
+    border-radius: 6px;
+    padding: 10px 20px;
+    height: 45px;
+    width: 130px;
+    margin: 0 auto;
+    text-align: center;
+    transition: background 0.2s ease;
+}
+.btn-blue:hover {
+  background: rgb(240,240,240);
+}
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11);
+  padding: 16px;
+  margin: 16px 0px;
+}
+.card-white img {
+  margin-bottom: 20px;
+}
+.footer {
+  background-color: #475977;
+  padding: 24px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer a {
+  color: white;
+  font-size: 32px;
+  font-family: Garamond;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 0px 8px;
+}
